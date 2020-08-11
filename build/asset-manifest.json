@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a019ec8.chunk.css",
+    "main.js": "/static/js/main.050f4b7f.chunk.js",
+    "main.js.map": "/static/js/main.050f4b7f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7fde3385.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7fde3385.js.map",
+    "static/css/2.ceb79488.chunk.css": "/static/css/2.ceb79488.chunk.css",
+    "static/js/2.3b586deb.chunk.js": "/static/js/2.3b586deb.chunk.js",
+    "static/js/2.3b586deb.chunk.js.map": "/static/js/2.3b586deb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2448fbc56aaad48cc6aaff7b49d901a2.js": "/precache-manifest.2448fbc56aaad48cc6aaff7b49d901a2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ceb79488.chunk.css.map": "/static/css/2.ceb79488.chunk.css.map",
+    "static/css/main.7a019ec8.chunk.css.map": "/static/css/main.7a019ec8.chunk.css.map",
+    "static/js/2.3b586deb.chunk.js.LICENSE.txt": "/static/js/2.3b586deb.chunk.js.LICENSE.txt",
+    "static/media/amazon-music-logo.jpg": "/static/media/amazon-music-logo.6b8c470b.jpg",
+    "static/media/App.css": "/static/media/herobg2.6dcff7c4.jpg",
+    "static/media/logo7.svg": "/static/media/logo7.4b810328.svg",
+    "static/media/saavn.png": "/static/media/saavn.324adf77.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fde3385.js",
+    "static/css/2.ceb79488.chunk.css",
+    "static/js/2.3b586deb.chunk.js",
+    "static/css/main.7a019ec8.chunk.css",
+    "static/js/main.050f4b7f.chunk.js"
+  ]
+}
