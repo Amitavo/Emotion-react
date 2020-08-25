@@ -162,8 +162,12 @@ body {
 
 .card-new-release {
   /* border: 6px solid red; */
-  border-radius: 16px;
-  overflow: hidden;
+
   width: 96%;
   margin-bottom: 20px;
+}
+
+.new-release {
+  border-radius: 16px;
+  overflow: hidden;
 }
