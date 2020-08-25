@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import SectionHero from "./components/SectionHero";
 import Partners from "./components/Partners";
 import SectionGenre from "./components/SectionGenre";
+import CarouselRecent from "./components/CarouselRecent";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <SectionHero />
       <Partners />
+      <CarouselRecent />
       <SectionGenre />
     </div>
   );

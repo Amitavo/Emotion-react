@@ -72,7 +72,7 @@ body {
 .section-genre {
   padding: 120px 0;
   background-color: rgb(179, 185, 254);
-  margin-top: -100px;
+  /* margin-top: -100px; */
   text-align: center;
 }
 
@@ -83,7 +83,9 @@ body {
   color: #333;
   text-transform: capitalize;
   font-size: 4rem;
-  background: #000;
+  line-height: 4rem;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .section-genre .site-container {
   display: flex;
@@ -143,4 +145,25 @@ body {
 }
 .genre-card .gradient:hover {
   background-color: rgba(0, 0, 0, 0);
+}
+.section-new-release {
+  margin-bottom: 40px;
+}
+
+/* Arrow modification of the Carousel */
+.slick-next:before,
+.slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgba(0, 0, 0, 0.55);
+}
+/* Arrow modification of the Carousel Ends */
+
+.card-new-release {
+  /* border: 6px solid red; */
+  border-radius: 16px;
+  overflow: hidden;
+  width: 96%;
+  margin-bottom: 20px;
 }
