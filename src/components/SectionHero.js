@@ -7,8 +7,9 @@ const SectionHero = () => (
       <h1>Emotion..</h1>
       <h2> Music & Video</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fuga
-        expedita consequatur illum qui excepturi!
+        EMOTION MUSIC extravaganza evolved as Musical Triggers with a
+        basket-full of fresh collection songs to rejuvenate our mind and soul.
+        It's <strong>emotionally yours</strong>.
       </p>
       <a href="https://www.google.com">
         <Button outline color="primary" type="submit">

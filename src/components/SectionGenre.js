@@ -9,13 +9,21 @@ import Regional from "../img/genre/regional.jpg";
 export default function SectionGenre() {
   return (
     <div className="section-genre">
-      <div className="site-container">
-        <GenreCard text="Mordern" />
-        <GenreCard text="Traditional" image={Traditional} />
-        <GenreCard text="Folk" image={Folk} />
-        <GenreCard text="Devotional" image={Devotional} />
-        <GenreCard text="Classical" image={Classic} />
-        <GenreCard text="Regional" image={Regional} />
+      <div className="container ">
+        <div className="row ">
+          <div className="col-lg-6 p-2 ">
+            <GenreCard text="Bengali" />
+          </div>
+          <div className="col-lg-6 p-2 ">
+            <GenreCard text="Devotional" image={Traditional} />
+          </div>
+          <div className="col-lg-6 p-2 ">
+            <GenreCard text="Meditational" image={Folk} />
+          </div>
+          <div className="col-lg-6 p-2 ">
+            <GenreCard text="Classical" image={Devotional} />
+          </div>
+        </div>
       </div>
     </div>
   );

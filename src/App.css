@@ -102,7 +102,8 @@ body {
 }
 
 .genre-card {
-  width: 50%;
+  /* width: 50%; */
+  border-radius: 2%;
   height: 472px;
   background-position: center;
   background-size: cover;
@@ -138,6 +139,7 @@ body {
 }
 
 .genre-card .gradient {
+  border-radius: 2%;
   background-color: rgba(0, 0, 0, 0.653);
   width: 100%;
   height: 100%;
@@ -156,7 +158,8 @@ body {
 /* Arrow modification of the Carousel */
 .slick-next:before,
 .slick-prev:before {
-  font-size: 20px;
+  display: none;
+  font-size: 40px;
   line-height: 1;
   opacity: 0.75;
   color: rgba(0, 0, 0, 0.55);
@@ -166,11 +169,11 @@ body {
 .card-new-release {
   /* border: 6px solid red; */
 
-  width: 96%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
 .new-release {
   border-radius: 16px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
