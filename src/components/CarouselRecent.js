@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import CardNewRelease from "../components/CardNewRelease";
-import Car1 from "../img/carouselNewRelease/carousel-1.jpg";
-import Car2 from "../img/carouselNewRelease/carousel-2.jpg";
-import Car3 from "../img/carouselNewRelease/carousel-3.jpg";
-import Car4 from "../img/carouselNewRelease/carousel-4.jpg";
-import Car5 from "../img/carouselNewRelease/carousel-5.jpg";
-import Car6 from "../img/carouselNewRelease/carousel-6.jpg";
+import Car1 from "../img/new_release/bengali1.jpeg";
+import Car2 from "../img/new_release/bengali2.jpeg";
+import Car3 from "../img/new_release/bengali3.jpeg";
+import Car4 from "../img/new_release/bengali4.jpeg";
+import Car5 from "../img/new_release/bengali2.jpeg";
+import Car6 from "../img/new_release/bengali4.jpeg";
 
 export default class AutoPlay extends Component {
   render() {
@@ -51,5 +51,3 @@ export default class AutoPlay extends Component {
     );
   }
 }
-
-

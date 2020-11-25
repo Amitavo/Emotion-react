@@ -1,6 +1,6 @@
 import React from "react";
 
-import dummy from "../img/genre/mordern.jpg";
+import dummy from "../img/new_release/bengali1.jpeg";
 
 export default function GenreCard({ image = dummy, text = "Dummy" }) {
   return (

@@ -6,6 +6,7 @@ import SectionHero from "./components/SectionHero";
 import Partners from "./components/Partners";
 import SectionGenre from "./components/SectionGenre";
 import CarouselRecent from "./components/CarouselRecent";
+import Footer from "./components/Footer";
 // import photo1 from "../img/gaana.png";
 // import photo2 from "../img/saavn.png";
 
@@ -29,6 +30,7 @@ function App() {
       <Partners />
       <CarouselRecent />
       <SectionGenre />
+      <Footer />
     </div>
   );
 }

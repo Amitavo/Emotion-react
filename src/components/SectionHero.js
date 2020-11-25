@@ -2,8 +2,8 @@ import React from "react";
 import { Button } from "reactstrap";
 
 const SectionHero = () => (
-  <div className="section-hero">
-    <div className="text-box">
+  <div className="section-hero container-fluid">
+    <div className="text-box d-none">
       <h1>Emotion..</h1>
       <h2> Music & Video</h2>
       <p>
