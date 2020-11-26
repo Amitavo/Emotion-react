@@ -66,7 +66,7 @@ const Footer = () => {
               <p>
                 Made with <i class="fas fa-heart"></i>
                 <NavLink href="amitavo.in" className="d-inline p-0 pl-2">
-                  Amitavo
+                  Amitavo.
                 </NavLink>
               </p>
             </div>
