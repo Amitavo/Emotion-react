@@ -1,10 +1,10 @@
 import React from "react";
-import myimage from "../img/carouselNewRelease/carousel-1.jpg";
+// import myimage from "../img/carouselNewRelease/carousel-1.jpg";
 
-const CardNewRelease = ({ img = myimage }) => (
+const CardNewRelease = ({ img }) => (
   <div className="card-new-release">
     <div className="new-release">
-      <img src={img} alt="image"  className="img-fluid rounded"/>
+      <img src={img} alt="image" className="img-fluid rounded" />
     </div>
   </div>
 );
