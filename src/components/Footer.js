@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "reactstrap";
 import "../css/footer.css";
 import logoFooter from "../img/logo/Logo_white.png";
 
@@ -9,18 +10,17 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-lg-4 footer-about wow fadeInUp">
-              <img
-                className="logo-footer mb-3"
-                src={logoFooter}
-                alt="logo-footer"
-                width="180"
-              />
+              <NavLink href="/" className="p-0">
+                <img
+                  className="logo-footer mb-3"
+                  src={logoFooter}
+                  alt="logo-footer"
+                  width="180"
+                />
+              </NavLink>
               <p>
                 We are a young company always looking for new and creative ideas
                 to help you with our products in your everyday work.
-              </p>
-              <p>
-                <a href="#">Our Team</a>
               </p>
             </div>
             <div className="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
@@ -33,22 +33,24 @@ const Footer = () => {
                 <i className="fas fa-phone"></i> Phone: (0039) 333 12 68 347
               </p>
               <p>
-                <i className="fas fa-envelope"></i> Email:{" "}
-                <a href="mailto:hello@domain.com">hello@domain.com</a>
+                <i className="fas fa-envelope"></i> Email:
+                <NavLink href="mailto:hello@domain.com" className="d-inline">
+                  emotionmusicvideo@gmail.com
+                </NavLink>
               </p>
             </div>
             <div className="col-md-4 col-lg-3 footer-social wow fadeInUp">
               <h3>Follow us</h3>
               <p>
-                <a href="#" className="mr-3">
+                <NavLink href="#" className="m-0 p-0 pr-3 d-inline">
                   <i className="fab fa-facebook"></i>
-                </a>
-                <a href="#" className="mr-3">
+                </NavLink>
+                <NavLink href="#" className="m-0 p-0 pr-3 d-inline">
                   <i className="fab fa-youtube"></i>
-                </a>
-                <a href="#" className="mr-3">
+                </NavLink>
+                <NavLink href="#" className="m-0 p-0 pr-3 d-inline">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </NavLink>
               </p>
             </div>
           </div>
@@ -62,7 +64,10 @@ const Footer = () => {
             </div>
             <div className="col-md-6 footer-copyright text-right">
               <p>
-                Made by <a href="amitavo.in">Amitavo</a>
+                Made with <i class="fas fa-heart"></i>
+                <NavLink href="amitavo.in" className="d-inline p-0 pl-2">
+                  Amitavo
+                </NavLink>
               </p>
             </div>
           </div>

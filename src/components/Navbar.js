@@ -23,7 +23,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar
-        className="navbarbg navbar-collapse navbar"
+        className="navbarbg navbar-collapse navbar "
         fixed="top"
         dark
         expand="md"

@@ -30,14 +30,12 @@ h2 {
   font-weight: 300;
 
   line-height: 50px;
-  font-style: italic;
 }
 h3 {
   font-size: 22px;
   font-weight: 300;
 
   line-height: 30px;
-  font-style: italic;
 }
 .no-margin-top h3 {
   margin-top: 0;
@@ -136,8 +134,10 @@ img {
 }
 
 @media (max-width: 415px) {
-  h1,
-  h2 {
+  h1 {
     font-size: 32px;
+  }
+  h2 {
+    font-size: 22px;
   }
 }

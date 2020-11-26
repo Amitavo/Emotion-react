@@ -16,28 +16,28 @@ const Bengali = () => {
         <div className="container-fluid bg-light p-4 mt-5">
           <GenreVideoCard
             videoid="oI1WDCjp-Qo"
-            videoTitle="Mon Bhari Somoy | Anupam Mallik Mithun | Ft. Sujay Das "
+            videoTitle="Mon Bhari Somoy | Anupam Mallik Mithun | Ft. Sujay Das | Emotion Music "
             dt="Oct 1, 2020"
           />
           <GenreVideoCard
             videoid="A9UU8RbAY8U"
-            videoTitle="Sanjhbati Ghor |Sulagna Dey Mallik "
+            videoTitle="Sanjhbati Ghor |Sulagna Dey Mallik | Emotion Music "
             dt="Oct 18, 2020"
           />
           <GenreVideoCard
             videoid="/lldygIpwVMk"
-            videoTitle="Ekdin Ghor Chhere | Bappaditya "
+            videoTitle="Ekdin Ghor Chhere | Bappaditya | Emotion Music "
             dt="Oct 15, 2020"
           />
 
           <GenreVideoCard
             videoid="tZUdnE7FsDk"
-            videoTitle="Baisakhi Jhor | Aditi Rai Choudhury |Anupam Mallik Mithun"
+            videoTitle="Baisakhi Jhor | Aditi Rai Choudhury |Anupam Mallik Mithun | Emotion Music"
             dt="Nov 18, 2020"
           />
           <GenreVideoCard
             videoid="qfymO4mFVcM"
-            videoTitle="Dakile Jodi | Sahana Debi | Sulagna Dey Mallik | Arnab Bhattacharya | Anupam Mallik "
+            videoTitle="Dakile Jodi | Sahana Debi | Sulagna Dey Mallik | Arnab Bhattacharya | Anupam Mallik | Emotion Music "
             dt="Nov 24, 2020"
           />
         </div>
