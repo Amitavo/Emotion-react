@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/footer.css";
+import logoFooter from "../img/logo/Logo_white.png";
 
 const Footer = () => {
   return (
@@ -9,10 +10,10 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-4 col-lg-4 footer-about wow fadeInUp">
               <img
-                className="logo-footer"
-                src="assets/img/logo.png"
+                className="logo-footer mb-3"
+                src={logoFooter}
                 alt="logo-footer"
-                data-at2x="assets/img/logo.png"
+                width="180"
               />
               <p>
                 We are a young company always looking for new and creative ideas

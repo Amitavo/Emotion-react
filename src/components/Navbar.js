@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../img/logo7.svg";
+import logo from "../img/logo/Logo_white.png";
 import {
   Collapse,
   Navbar,
@@ -30,7 +30,7 @@ const Example = (props) => {
       >
         <NavbarBrand href="/">
           <a href="/">
-            <img src={logo} style={{ width: 140 }} alt="logo" />
+            <img src={logo} style={{ width: 120 }} alt="logo" />
           </a>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
@@ -44,32 +44,22 @@ const Example = (props) => {
                 GENRE
               </DropdownToggle>
               <DropdownMenu right>
-                <NavLink href="#">
-                  <DropdownItem>Mordern</DropdownItem>
+                <NavLink href="/bengali">
+                  <DropdownItem>Bengali Songs</DropdownItem>
                 </NavLink>
-                <NavLink href="#">
-                  <DropdownItem>Traditonal</DropdownItem>
+                <NavLink href="/meditational">
+                  <DropdownItem>Meditational Songs</DropdownItem>
                 </NavLink>
-                <NavLink href="#">
-                  <DropdownItem>Folk</DropdownItem>
+                <NavLink href="/devotional">
+                  <DropdownItem>Devotional Songs</DropdownItem>
                 </NavLink>
-                <NavLink href="#">
-                  <DropdownItem>Devotional</DropdownItem>
-                </NavLink>
-                <NavLink href="#">
-                  <DropdownItem>Classic</DropdownItem>
+                <NavLink href="/classical">
+                  <DropdownItem>Classical Songs</DropdownItem>
                 </NavLink>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                ABOUT
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                CONTACT
-              </NavLink>
+              <NavLink href="/about">ABOUT</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

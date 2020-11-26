@@ -4,6 +4,20 @@ import Traditional from "../img/genre/traditional.jpg";
 import Meditational from "../img/genre/meditational.jpg";
 import Devotional from "../img/Images_by_Arindam/dakile_jodi_artwork.jpg";
 import Classical from "../img/Images_by_Arindam/sanjhbati_ghor_artwork.jpg";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText,
+} from "reactstrap";
 
 export default function SectionGenre() {
   return (
@@ -11,17 +25,24 @@ export default function SectionGenre() {
       <div className="container ">
         <div className="row ">
           <div className="col-lg-6 p-2 ">
-            <GenreCard text="Bengali" />
-          </div>
-
-          <div className="col-lg-6 p-2 ">
-            <GenreCard text="Meditational" image={Meditational} />
+            <NavLink href="/bengali">
+              <GenreCard text="Bengali" />
+            </NavLink>
           </div>
           <div className="col-lg-6 p-2 ">
-            <GenreCard text="Devotional" image={Devotional} />
+            <NavLink href="/meditational">
+              <GenreCard text="Meditational" image={Meditational} />
+            </NavLink>
           </div>
           <div className="col-lg-6 p-2 ">
-            <GenreCard text="Classical" image={Classical} />
+            <NavLink href="/devotional">
+              <GenreCard text="Devotional" image={Devotional} />
+            </NavLink>
+          </div>
+          <div className="col-lg-6 p-2 ">
+            <NavLink href="/classical">
+              <GenreCard text="Classical" image={Classical} />
+            </NavLink>
           </div>
         </div>
       </div>

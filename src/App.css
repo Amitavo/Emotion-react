@@ -116,7 +116,7 @@
 
 .genre-card .text-box {
   padding: 16px 0px;
-  width: 50%;
+  width: 60%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   /* display: flex;
@@ -173,4 +173,27 @@
 .new-release {
   border-radius: 16px;
   /* overflow: hidden; */
+}
+.about-us {
+  background: url(./img/aboutUsBg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+.about-us .title1 {
+  text-shadow: 4px 4px 8px #000000;
+  font-size: 120px;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+.body-copy {
+  font-size: 24px;
+  line-height: 46px;
+  color: #555;
+  padding: 40px;
+}
+.body-copy span {
+  font-size: 40px;
+  font-weight: 900;
+  color: #2e67e4;
 }
