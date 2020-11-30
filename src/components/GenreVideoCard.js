@@ -26,7 +26,7 @@ const GenreVideoCard = ({
         <MyYoutube videoid={videoid} opts={opt1} />
       </div>
       <div className="col-lg-5 col-sm-12 pr-5 pt-4 pl-5">
-        <h2 className="mt-lg-5">{videoTitle}</h2>
+        <h3 className="mt-lg-5">{videoTitle}</h3>
         <h5 className="text-muted mt-4">Release Date: {dt}</h5>
       </div>
     </div>

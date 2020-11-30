@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79a29eb8.chunk.css",
+    "main.js": "/static/js/main.63bca28c.chunk.js",
+    "main.js.map": "/static/js/main.63bca28c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7fde3385.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7fde3385.js.map",
+    "static/css/2.4c8fbb51.chunk.css": "/static/css/2.4c8fbb51.chunk.css",
+    "static/js/2.da447994.chunk.js": "/static/js/2.da447994.chunk.js",
+    "static/js/2.da447994.chunk.js.map": "/static/js/2.da447994.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.80d09fc0eb817e418e07ed8222f0635f.js": "/precache-manifest.80d09fc0eb817e418e07ed8222f0635f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4c8fbb51.chunk.css.map": "/static/css/2.4c8fbb51.chunk.css.map",
+    "static/css/main.79a29eb8.chunk.css.map": "/static/css/main.79a29eb8.chunk.css.map",
+    "static/js/2.da447994.chunk.js.LICENSE.txt": "/static/js/2.da447994.chunk.js.LICENSE.txt",
+    "static/media/Logo_white.png": "/static/media/Logo_white.f9b69afe.png",
+    "static/media/aboutUsBg.jpg": "/static/media/aboutUsBg.8f11c50b.jpg",
+    "static/media/amazon-music-logo.jpg": "/static/media/amazon-music-logo.6b8c470b.jpg",
+    "static/media/bengali1.jpeg": "/static/media/bengali1.322851bc.jpeg",
+    "static/media/bengali2.jpeg": "/static/media/bengali2.1de0cfa8.jpeg",
+    "static/media/bengali3.jpeg": "/static/media/bengali3.55b21d90.jpeg",
+    "static/media/bengali4.jpeg": "/static/media/bengali4.4a4bc092.jpeg",
+    "static/media/dakile_jodi_artwork.jpg": "/static/media/dakile_jodi_artwork.e8064969.jpg",
+    "static/media/App.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/meditational.jpg": "/static/media/meditational.b5e566d3.jpg",
+    "static/media/mon_bhari.jpg": "/static/media/mon_bhari.5a15f9a8.jpg",
+    "static/media/saavn.png": "/static/media/saavn.324adf77.png",
+    "static/media/sanjhbati_ghor_artwork.jpg": "/static/media/sanjhbati_ghor_artwork.e2a82624.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fde3385.js",
+    "static/css/2.4c8fbb51.chunk.css",
+    "static/js/2.da447994.chunk.js",
+    "static/css/main.79a29eb8.chunk.css",
+    "static/js/main.63bca28c.chunk.js"
+  ]
+}

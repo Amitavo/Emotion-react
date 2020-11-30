@@ -8,12 +8,12 @@ const Bengali = () => {
   return (
     <div>
       <Navbar />
-      <body className="p-5">
-        <h1 className="text-center font-weight-bold mt-5">
+      <body className="p-lg-5 p-sm-1 ">
+        <h1 className="text-center font-weight-bold mt-5 pt-5">
           All New Bengali Songs.
         </h1>
         <Dash />
-        <div className="container-fluid bg-light p-4 mt-5">
+        <div className="container-fluid bg-light p-lg-4 p-sm-1 mt-5">
           <GenreVideoCard
             videoid="oI1WDCjp-Qo"
             videoTitle="Mon Bhari Somoy | Anupam Mallik Mithun | Ft. Sujay Das | Emotion Music "

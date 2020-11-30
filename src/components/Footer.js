@@ -26,15 +26,20 @@ const Footer = () => {
             <div className="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
               <h3>Contact</h3>
               <p>
-                <i className="fas fa-map-marker-alt"></i> Via Rossini 10, 10136
-                Turin Italy
+                <i className="fas fa-map-marker-alt mr-2"></i> Kolkata
               </p>
               <p>
-                <i className="fas fa-phone"></i> Phone: (0039) 333 12 68 347
+                <i className="fas fa-phone mr-2"></i>{" "}
+                <a href="tel:+919038714007" class="Blondie">
+                  Phone: (+91) 903 871 4007
+                </a>
               </p>
               <p>
-                <i className="fas fa-envelope"></i> Email:
-                <NavLink href="mailto:hello@domain.com" className="d-inline">
+                <i className="fas fa-envelope mr-2"></i> Email:
+                <NavLink
+                  href="mailto:emotionmusicvideo@gmail.com"
+                  className="d-inline"
+                >
                   emotionmusicvideo@gmail.com
                 </NavLink>
               </p>
@@ -42,10 +47,16 @@ const Footer = () => {
             <div className="col-md-4 col-lg-3 footer-social wow fadeInUp">
               <h3>Follow us</h3>
               <p>
-                <NavLink href="#" className="m-0 p-0 pr-3 d-inline">
+                <NavLink
+                  href="https://www.facebook.com/emotionmusicvideo"
+                  className="m-0 p-0 pr-3 d-inline"
+                >
                   <i className="fab fa-facebook"></i>
                 </NavLink>
-                <NavLink href="#" className="m-0 p-0 pr-3 d-inline">
+                <NavLink
+                  href="https://www.youtube.com/channel/UCJhcd2BYXES-VpI4_Iv3ISg"
+                  className="m-0 p-0 pr-3 d-inline"
+                >
                   <i className="fab fa-youtube"></i>
                 </NavLink>
                 <NavLink href="#" className="m-0 p-0 pr-3 d-inline">
