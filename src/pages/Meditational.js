@@ -14,7 +14,7 @@ const Meditational = () => {
         </h1>
         <Dash />
         <div className="container-fluid bg-light p-4 mt-5">
-          {/* <GenreVideoCard
+          <GenreVideoCard
             videoid="Y2xqvh4lXBE"
             videoTitle="The Mother - Mira Maa | Rishi Aurobindo | Spiritual | Emotion Music"
             dt="Aug 31, 2020"
@@ -33,7 +33,7 @@ const Meditational = () => {
             videoid="qfymO4mFVcM"
             videoTitle="Dakile Jodi | Sahana Debi | Sulagna Dey Mallik | Arnab Bhattacharya | Anupam Mallik "
             dt="Nov 24, 2020"
-          />*/}
+          />
         </div>
       </body>
       <Footer />
