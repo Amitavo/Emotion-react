@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-// import GenreVideoCard from "../components/GenreVideoCard";
+import GenreVideoCard from "../components/GenreVideoCard";
 import Dash from "../components/Dash";
 
 const Meditational = () => {
