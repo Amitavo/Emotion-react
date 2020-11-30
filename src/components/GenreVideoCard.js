@@ -1,6 +1,5 @@
 import React from "react";
 import MyYoutube from "./Youtube";
-import Dash from "../components/Dash";
 
 const GenreVideoCard = ({
   videoTitle = "Title ooof the Video",
@@ -11,7 +10,6 @@ const GenreVideoCard = ({
     height: "320",
     width: "100%",
     playerVars: {
-      // https://developers.google.com/youtube/player_parameters
       autoplay: 0,
     },
   };
@@ -19,7 +17,6 @@ const GenreVideoCard = ({
     height: "300",
     width: "100%",
     playerVars: {
-      // https://developers.google.com/youtube/player_parameters
       autoplay: 0,
     },
   };
