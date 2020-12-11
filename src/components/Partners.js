@@ -6,10 +6,10 @@ import wink from "../img/wink-music.png";
 
 const Partners = () => (
   <div className="partners">
-    <img src={amazon} height="60px" alt="gaana" />
-    <img src={gaana} height="60px" alt="gaana" />
-    <img src={saavan} height="60px" alt="gaana" />
-    <img src={wink} height="60px" alt="gaana" />
+    <img src={amazon} height="60px" alt="gaana" className="partners-images" />
+    <img src={gaana} height="60px" alt="gaana" className="partners-images" />
+    <img src={saavan} height="60px" alt="gaana" className="partners-images" />
+    <img src={wink} height="60px" alt="gaana" className="partners-images" />
   </div>
 );
 
