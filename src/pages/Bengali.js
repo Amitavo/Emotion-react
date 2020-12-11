@@ -9,7 +9,7 @@ const Bengali = () => {
     <div>
       <Navbar />
       <body className="p-lg-5 p-sm-1 ">
-        <h1 className="text-center font-weight-bold mt-5 pt-5">
+        <h1 className="text-center font-weight-bold mt-5 ">
           All New Bengali Songs.
         </h1>
         <Dash />
